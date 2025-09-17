@@ -1,0 +1,11 @@
+Algorithm Psuedocode (so far):
+Create cross filters
+Check grid on cross filters
+Mark all open passages
+Check if start or end has more outgoing passages
+Trace the line from that point to each passage
+Go towards the other end if possible (e.g., down and right) and then go other directions if possible
+If not possible to go any directions except one that the line came from, it’s dead end (delete the path)
+Check if new quarter has more or less passages than start/end and if any passages in the new quarter are the same as in the start
+Follow path algorithm to find the next passage
+If passage in start quadrant, go to end by following path algorithm
