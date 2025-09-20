@@ -1,2 +1,2 @@
 # Maze-Solving-Algorithm
-My own original algorithm to solve grid-based mazes. This program first generates a random maze using Wilson's algorithm. The actual solving part works to optimize pathfinding by eliminating impossible sections.
+My own original algorithm to solve grid-based mazes. This program first generates a random maze using Wilson's algorithm. The actual solving part works to optimize pathfinding by eliminating impossible sections. It recognizes these "passages" (places where the quadrants intersect), and uses a pathfinding algorithm similar to A* to trace lines between different sections. This helps optimize the pathfinding because it eliminates impossible paths before having to travel them.
